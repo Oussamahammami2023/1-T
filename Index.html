@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TN-WORK</title>
+  <link rel="stylesheet" href="./styles/style.css"> <!-- رابط لملف CSS -->
+</head>
+<body>
+  <!-- قسم الخلفية الزرقاء -->
+  <div class="blue-background-container">
+    <!-- صورة الأيقونة مع رابط -->
+    <a href="/pages/Education">
+      <img src="https://cdn.shopify.com/s/files/1/0895/5831/9385/files/add-friend.png?v=1723307718" alt="Icon" class="icon">
+    </a>
+    
+    <!-- عنوان فوق خانة البحث -->
+    <div class="search-title">TN-WORK</div>
+    
+    <!-- قسم خانة البحث -->
+    <div class="unique-search-bar">
+      <form action="/search" method="get" role="search">
+        <div class="unique-search-input-container">
+          <input type="search" name="q" class="unique-search-input" placeholder="Recherche de prestataires de services en Tunisie" aria-label="Recherche">
+          <button type="submit" class="unique-search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M9 17a7 7 0 1 1 4.95-2.05L22 21.91l-1.41 1.41L12.45 16.4A7 7 0 0 1 9 17zm-4-7a5 5 0 1 0 10 0A5 5 0 0 0 5 10z"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- قسم قائمة المجموعات -->
+    <div class="unique-c-1-list">
+       <a href="/pages/Marketing" class="unique-c-1-item" data-group="E-commerce" onclick="setActive(this)">Tunis</a>
+      <a href="/" class="unique-c-1-item" data-group="Design" onclick="setActive(this)">Ariana</a>
+      <a href="/pages/Development" class="unique-c-1-item" data-group="Develop" onclick="setActive(this)">Manouba</a>
+      <a href="/pages/Education" class="unique-c-1-item" data-group="Education" onclick="setActive(this)">Ben arous</a>
+      <a href="/pages/Traduction" class="unique-c-1-item" data-group="Rédaction & Traduction" onclick="setActive(this)">Nabeul</a>
+      <a href="/pages/IA" class="unique-c-1-item" data-group="Services d'IA" onclick="setActive(this)">Zaghouan</a>
+      <a href="/pages/Consultation" class="unique-c-1-item" data-group="Consultation" onclick="setActive(this)">Sousse</a>
+        <a href="/pages/Marketing" class="unique-c-1-item" data-group="E-commerce" onclick="setActive(this)">Monastir</a>
+      <a href="/" class="unique-c-1-item" data-group="Design" onclick="setActive(this)">Mahdia</a>
+      <a href="/pages/Development" class="unique-c-1-item" data-group="Develop" onclick="setActive(this)">Bizerte</a>
+      <a href="/pages/Education" class="unique-c-1-item" data-group="Education" onclick="setActive(this)">Beja</a>
+      <a href="/pages/Traduction" class="unique-c-1-item" data-group="Rédaction & Traduction" onclick="setActive(this)">Le kef</a>
+      <a href="/pages/IA" class="unique-c-1-item" data-group="Services d'IA" onclick="setActive(this)">Jendouba</a>
+      <a href="/pages/Consultation" class="unique-c-1-item" data-group="Consultation" onclick="setActive(this)">Siliana</a>
+        <a href="/pages/Marketing" class="unique-c-1-item" data-group="E-commerce" onclick="setActive(this)">Kairouan</a>
+      <a href="/" class="unique-c-1-item" data-group="Design" onclick="setActive(this)">Sfax</a>
+      <a href="/pages/Development" class="unique-c-1-item" data-group="Develop" onclick="setActive(this)">Kasserine</a>
+      <a href="/pages/Education" class="unique-c-1-item" data-group="Education" onclick="setActive(this)">Sidi Bouzid</a>
+      <a href="/pages/Traduction" class="unique-c-1-item" data-group="Rédaction & Traduction" onclick="setActive(this)">Gafsa</a>
+      <a href="/pages/IA" class="unique-c-1-item" data-group="Services d'IA" onclick="setActive(this)">Tozeur</a>
+      <a href="/pages/Consultation" class="unique-c-1-item" data-group="Consultation" onclick="setActive(this)">Kebili</a>
+  <a href="/pages/Marketing" class="unique-c-1-item" data-group="E-commerce" onclick="setActive(this)">Gabès</a>
+      <a href="/" class="unique-c-1-item" data-group="Design" onclick="setActive(this)">Médenine</a>
+      <a href="/pages/Development" class="unique-c-1-item" data-group="Develop" onclick="setActive(this)">Tataouine</a>
+    </div>
+  </div>
+  
+  <div class="group-container-1-2" id="groupContainer">
+    <div class="group-1-2" style="background-image: url('/T2-main/image /Green Modern Bold Healthy Food Presentation.png');"></div>
+    <div class="group-1-2" style="background-image: url('/T2-main/image /IMG_20241009_195201.jpg');"></div>
+    <div class="group-1-2" style="background-image: url('/T2-main/image /IMG_20241009_200601.jpg');"></div>
+    <div class="group-1-2" style="background-image: url('/T2-main/image /IMG_20241009_200543.jpg');"></div>
+    <div class="group-1-2" style="background-image: url('/T2-main/image /notre-merveilleux-restaurant.jpg');"></div>
+  </div>
+  </div>
+<!-- زر مع التنسيق المطلوب -->
+<div class="group-list-1-3">
+  <a href="/T2-main/Page/1-Restaurants/index.html" class="group-item-1-3">
+    <div class="group-title-1-3">Restaurants</div>
+  </a>
+</div>
+    <div id="1-4" class="product-header">
+        <h1 class="product-title">Artisans</h1>
+        <h1 class="show-all">
+            <a href="your-page-url">Afficher tout</a>
+        </h1>
+    </div>
+  <div class="a-4-container">
+    <div class="a-4-group-section">
+      <!-- Group Row 1 -->
+      <div class="a-4-group-row">
+        <a href="/T2-main/Page/2-Boutiques/-1-Mode /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-1- Électricien.jpg" alt="Logo Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Électriciens</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/-5-Sport et fitness /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-2- plombier.jpg" alt="Digital Ads Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Maçon</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/-9- Articles pour bébé /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-9- vitrier.jpg" alt="Packaging Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Vitrier</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+         <a href="/T2-main/Page/2-Boutiques/13-Électroménager/index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="https://cdn.shopify.com/s/files/1/0664/2591/3507/files/iOS_Developers_2x_524c3a4b-5d2a-43af-9eb5-4497b24cfe94.png?v=1723195385" alt="Presentation Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Électroménager</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+      </div>
+      <!-- Group Row 2 -->
+      <div class="a-4-group-row">
+        <a href="/T2-main/Page/2-Boutiques/-2-Accessoires /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-2- plombier.jpg" alt="JavaScript Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Plombiers</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/-6- Livres et papeterie /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-6- peintre.jpg" alt="UI Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Peintre</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/10-Jeux et cadeaux/index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /10- menuisier aluminium.jpg" alt="Presentation Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Menuisier en aluminium</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+         <a href="/T2-main/Page/2-Boutiques/14-Meubles et décoration/index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="https://cdn.shopify.com/s/files/1/0664/2591/3507/files/iOS_Developers_2x_524c3a4b-5d2a-43af-9eb5-4497b24cfe94.png?v=1723195385" alt="Presentation Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Meubles et décoration</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+      </div>
+      <!-- Group Row 3 -->
+      <div class="a-4-group-row">
+        <a href="/T2-main/Page/2-Boutiques/-3- Électronique /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-3- menuisier.jpg" alt="Brochure and Flyer Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Menuisiers</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/-7-  Arts et artisanat /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-7- plâtrerie.jpg" alt="Illustration Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Plâtrier</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/11-Maison et cuisine/index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="https://cdn.shopify.com/s/files/1/0664/2591/3507/files/Unity_Developers_2x_14db3074-2de7-4104-98b9-9bb2adc4166d.png?v=1723195386386" alt="Infographic Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Maison et cuisine</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+         <a href="/T2-main/Page/2-Boutiques/15-Outils de jardinage/index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="https://cdn.shopify.com/s/files/1/0664/2591/3507/files/iOS_Developers_2x_524c3a4b-5d2a-43af-9eb5-4497b24cfe94.png?v=1723195385" alt="Presentation Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Outils de jardinage</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+      </div>
+      <!-- Group Row 4 -->
+      <div class="a-4-group-row">
+        <a href="/T2-main/Page/2-Boutiques/-4-Santé & beauté /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-4- fourgon.jpg" alt="New Service 1">
+          </div>
+          <div>
+            <div class="a-4-group-title">Forgerons</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/-8- Fournitures du camping /index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="/T2-main/image /Artisan /-8- carreleur.jpg" alt="New Service 2">
+          </div>
+          <div>
+            <div class="a-4-group-title">Carreleur</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+        <a href="/T2-main/Page/2-Boutiques/12-Articles de nettoyage/index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="https://via.placeholder.com/75x70" alt="New Service 3">
+          </div>
+          <div>
+            <div class="a-4-group-title">Articles de nettoyage</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+         <a href="/T2-main/Page/2-Boutiques/16-Voitures et accessoires/index.html" class="a-4-group-item">
+          <div class="a-4-group-icon">
+            <img src="https://cdn.shopify.com/s/files/1/0664/2591/3507/files/iOS_Developers_2x_524c3a4b-5d2a-43af-9eb5-4497b24cfe94.png?v=1723195385" alt="Presentation Design Icon">
+          </div>
+          <div>
+            <div class="a-4-group-title">Voitures et accessoires</div>
+            <div class="a-4-group-subtitle">0 Artisans</div>
+          </div>
+        </a>
+      </div>
+     </div>
+   </div>
+   <div id="ri-2" class="product-header">
+      <h1 class="product-title">Réservation</h1>
+      <h1 class="show-all">
+        <a href="your-page-url">Afficher tout</a>
+      </h1>
+    </div>
+    <div class="c-5-group-container">
+        <a href="https://example.com/group1" class="c-5-group">
+            <img src="/T2-main/image /Réservation /1.jpg" alt="Group 1">
+            <div class="c-5-group-title">Médecin</div>
+        </a>
+        <a href="https://example.com/group2" class="c-5-group">
+            <img src="/T2-main/image /Réservation /2.jpg" alt="Group 2">
+            <div class="c-5-group-title">Avocat</div>
+        </a>
+        <a href="https://example.com/group3" class="c-5-group">
+            <img src="/T2-main/image /Réservation /3.jpg" alt="Group 3">
+            <div class="c-5-group-title">Architecte</div>
+        </a>
+        <a href="https://example.com/group4" class="c-5-group">
+            <img src="/T2-main/image /Réservation /4.jpg" alt="Group 4">
+            <div class="c-5-group-title">Comptable</div>
+        </a>
+        <a href="https://example.com/group5" class="c-5-group">
+            <img src="https://via.placeholder.com/150" alt="Group 5">
+            <div class="c-5-group-title">Entraîneur</div>
+        </a>
+        <a href="https://example.com/group6" class="c-5-group">
+            <img src="https://via.placeholder.com/150" alt="Group 6">
+            <div class="c-5-group-title">Group 6</div>
+        </a>
+        <a href="https://example.com/group7" class="c-5-group">
+            <img src="https://via.placeholder.com/150" alt="Group 7">
+            <div class="c-5-group-title">Group 7</div>
+        </a>
+        <a href="https://example.com/group8" class="c-5-group">
+            <img src="https://via.placeholder.com/150" alt="Group 8">
+            <div class="c-5-group-title">Group 8</div>
+        </a>
+        <a href="https://example.com/group9" class="c-5-group">
+            <img src="https://via.placeholder.com/150" alt="Group 9">
+            <div class="c-5-group-title">Group 9</div>
+        </a>
+        <a href="https://example.com/group10" class="c-5-group">
+            <img src="https://via.placeholder.com/150" alt="Group 10">
+            <div class="c-5-group-title">Group 10</div>
+        </a>
+    </div>
+<div class="group-5">
+  <h2 class="group-title">Éducation</h2>
+
+  <a href="link1.html" class="group-5-item">
+    <div class="group-image-container">
+      <img src="https://cdn.shopify.com/s/files/1/0713/8538/3128/files/IMG_20240918_125435.jpg?v=1726660519" alt="مجموعة 1" class="group-image">
+    </div>
+    <h3 class="item-title">Professeurs de langues</h3>
+  </a>
+
+  <a href="link2.html" class="group-5-item">
+    <div class="group-image-container">
+      <img src="https://cdn.shopify.com/s/files/1/0713/8538/3128/files/IMG_20240918_124841.jpg?v=1726660189" alt="مجموعة 2" class="group-image">
+    </div>
+    <h3 class="item-title">Boutique</h3>
+  </a>
+
+</div>
+  <script src="./js/script.js"></script> <!-- رابط لملف JavaScript -->
+  </script>
+</body>
+</html> 
