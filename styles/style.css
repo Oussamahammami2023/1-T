@@ -56,7 +56,7 @@ body, html {
 .unique-c-1-list {
     display: flex;
     overflow-x: auto;
-    padding: 2.5px 0px 8.5px 4px;
+    padding: 4.5px 0px 8px 4px;
     font-family: 'Amazon Ember', Arial, sans-serif;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -69,9 +69,9 @@ body, html {
 
 .unique-c-1-item {
     flex-shrink: 0;
-    margin-right: 0.9rem;
+    margin-right: 0.4rem;
     padding: 7.4px 1rem; /* Increased padding for a button-like look */
-    border-radius: 9px; /* Rounded corners */
+    border-radius: 12px; /* Rounded corners */
     text-decoration: none;
     color: #ffffff;
     background-color: #C0C0C0; /* Dark background color */
@@ -82,7 +82,7 @@ body, html {
 }
 .unique-c-1-title {
     text-align: center; /* يجعل النص في الوسط */
-    font-size: 24px; /* حجم الخط */
+    font-size: 24.5px; /* حجم الخط */
     font-weight: bold; /* سماكة الخط */
     margin-bottom: 15px; /* إضافة مسافة بين العنوان والقائمة */
     color: #000; /* لون النص */
@@ -92,11 +92,6 @@ body, html {
     background-color: #fff; /* Highlighted background */
     color: #C0C0C0; /* Dark text for active button */
 }
-
-.unique-c-1-item:hover {
-    background-color: #555; /* Darker shade on hover */
-    cursor: pointer;
-}
 .unique-c-1-list a:nth-child(1) {
     background-color: #000; /* لون الخلفية الأسود */
     color: #fff; /* لون النص */
@@ -105,7 +100,7 @@ body, html {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
-    margin: 9px 25px -24px 10px;
+    margin: 8.5px 25px -25px 10px;
 }
 .icon {
     position: absolute;
@@ -160,7 +155,7 @@ body, html {
 
 .group-title-1-3 {
   color: black;
-  padding: 15px 140px;
+  padding: 20px 140px;
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
